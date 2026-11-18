@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #28374c;
+  color: white;
+  padding: 15px 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 1.5rem;
+}
+.nav-btn {
+  margin: 0 10px;
+  color: white;
+  background-color: #28374c;
+  border: none;
+  text-decoration: none;
+}

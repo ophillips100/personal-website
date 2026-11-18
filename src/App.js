@@ -1,7 +1,13 @@
-import ListGroup from './components/ListGroup';
+import ListGroup from "./components/ListGroup";
+import Header from "./components/header/Header.jsx";
 
 function App() {
-  return <div><ListGroup /></div>
+  return (
+    <div>
+      <Header />
+      <ListGroup />
+    </div>
+  );
 }
 
 export default App;
