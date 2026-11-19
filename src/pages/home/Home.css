@@ -1,0 +1,89 @@
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.split-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  text-align: center;
+  padding: 15px 40px;
+  
+}
+.split-left {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+.split-right {
+  flex: 1;
+  padding: 20px;
+  text-align: right;
+}
+.split-left h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--primary-text-color);
+  font-family: var(--primary-text-font);
+}
+.split-left p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: var(--secondary-text-color);
+  font-family: var(--secondary-text-font);
+}
+
+.split-right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.projects-btn {
+  display: inline-block;
+  width: 10.0rem;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: var(--other-dark-color);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: var(--primary-text-font);
+  font-weight: 800;
+  border-radius: var(--button-radius);
+  transition: color, background-color 0.3s ease;
+}
+
+.projects-btn:hover {
+  background-color: var(--primary-color-darker);
+  color: var(--primary-text-color);
+}
+
+.contact-btn {
+  display: inline-block;
+  width: 10.0rem;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: var(--background-color);
+  color: var(--secondary-text-color);
+  border: 2px solid var(--secondary-text-color);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: var(--primary-text-font);
+  font-weight: 800;
+  border-radius: var(--button-radius);
+  transition: color, border-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}

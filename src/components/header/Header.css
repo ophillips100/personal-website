@@ -2,24 +2,36 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #28374c;
+  background-color: var(--header-bg-color);
   color: white;
   padding: 15px 40px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  font-size: 1.5rem;
 }
 .main-btn {
   margin: 0 10px;
-  color: white;
-  background-color: #28374c;
+  color: var(--primary-text-color);
+  background-color: var(--header-bg-color);
   border: none;
   text-decoration: none;
   font-size: 2.5rem;
+  font-family: var(--primary-text-font);
+  font-weight: 800;
+  transition: color 0.3s ease;
+}
+.main-btn:hover {
+  color: var(--primary-text-hover);
 }
 .nav-btn {
   margin: 0 10px;
-  color: white;
-  background-color: #28374c;
+  color: var(--secondary-text-color);
+  background-color: var(--header-bg-color);
   border: none;
   text-decoration: none;
+  font-family: var(--secondary-text-font);
+  font-weight: 200;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+.nav-btn:hover {
+  color: var(--secondary-text-hover);
 }
