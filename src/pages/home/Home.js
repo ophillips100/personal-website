@@ -13,8 +13,8 @@ function Home() {
           <h1>Hi, I'm Owen Phillips</h1>
           <p>Undergraduate software engineering student at the University of Nebraska-Lincoln. Interested in web and backend development. You can find my projects and contact information here.</p>
         <div className="hero-buttons mt-4">
-          <button className="btn projects-btn me-3" onClick={() => navigate('/projects')}>Projects</button>
-          <button className="btn contact-btn" onClick={() => navigate('/contact')}>Contact</button>
+          <button className="primary-btn" onClick={() => navigate('/projects')}>Projects</button>
+          <button className="secondary-btn" onClick={() => navigate('/contact')}>Contact</button>
         </div>
         </div>
         <div className="split-right">
